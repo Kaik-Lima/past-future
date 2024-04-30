@@ -8,7 +8,7 @@ header {
     background-color: lightgray;
 }
 main {
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 50px 0px;
 }
 .cabecalho {
     display: flex;
@@ -29,13 +29,17 @@ main {
 .rodape > a:hover {
     color: blue;
 }
+.firstSection {
+    display: flex;
+    justify-content: center;
+}
 .destaque {
     width: 50%;
     display: flex;
-    margin: auto;
 }
 .desPic {
-    width: 350px;
+    max-width: 350px;
+    max-height: 250px;
 }
 .destaque .info {
     padding-left: 10px;
@@ -84,4 +88,19 @@ main {
     flex-direction: column;
     align-items: start;
     width: 35%;
+}
+.footer {
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao-image {
+    max-width: 90px;
+    max-height: 40px;
+    transition: scale 1s;
+}
+.botao-image:hover {
+    scale: .9;
+    cursor: pointer;
 }
