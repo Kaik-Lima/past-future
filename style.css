@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightgray;
+}
+main {
+    padding: 20px 0px 0px 0px;
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    max-width: 150px;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+.rodape > a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 0px 15px 80px;
+}
+.rodape > a:hover {
+    color: blue;
+}
+.destaque {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.desPic {
+    width: 350px;
+}
+.destaque .info {
+    padding-left: 10px;
+}
+.categoria {
+    display: flex;
+    justify-content: center;
+}
+.categoria p {
+    text-transform: uppercase;
+    padding: 20px 330px 0px 0px;
+}
+.mural {
+    display: flex;
+    justify-content: center;
+}
+.Left {
+    display: flex;
+    max-width: 400px;
+}
+.imageLeft {
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 20px;
+}
+.Right {
+    display: flex;
+    max-width: 400px;
+}
+.imageRight {
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 20px;
+}
+.thirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.thirdSection h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.artigos {
+    flex-direction: column;
+    align-items: start;
+    width: 35%;
+}
