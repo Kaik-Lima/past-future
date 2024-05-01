@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+    <header id="hdr">
         <div class="cabecalho">
-            <img src="extra/logo-uol.png" alt="logo" class="logo">
+            <img src="extra/logo-uol.png" alt="logo" class="logo" id="desPicID">
         </div>
         <nav class="rodape">
-                <a href="#">CAPA</a>
-                <a href="#">EM DESTAQUE</a>
-                <a href="#">FATOS HISTÓRICOS</a>
-                <a href="#">FRASES</a>
+            <a href="#" class="link">CAPA</a>
+            <a href="#" class="link">EM DESTAQUE</a>
+            <a href="#" class="link">FATOS HISTÓRICOS</a>
+            <a href="#" class="link">FRASES</a>
         </nav>
     </header>
     <main>
-        <section class="firstSection">
-            <div class="destaque">
-                <img src="https://acervo.oglobo.globo.com/incoming/23132002-10f-cdf/materia/Apollo-7.jpg" alt="picture" class="desPic">
+        <section id="firstSection" class="firstSection">
+            <div class="destaque" id="destaque">
+                <img src="https://acervo.oglobo.globo.com/incoming/23132002-10f-cdf/materia/Apollo-7.jpg" alt="picture"
+                    class="desPic" id="PicDestaque">
                 <div class="info">
-                    <h2>Projeto Apollo leva humano à Lua em 1969, e Armstrong dá o passo histórico</h2>
-                    <p>Um pequeno passo para um homem, um grande salto para a Humanidade e uma imensa lavada de alma para milhões de americanos. A pegada impressa por Neil Armstrong na poeira do Mar da Tranquilidade, em 20 de julho de 1969, representou a maior conquista da raça humana e a vitória dos Estados Unidos sobre a União Soviética na corrida espacial.</p>
+                    <h2 id="tituloNoticiaDestaque">Projeto Apollo leva humano à Lua em 1969, e Armstrong dá o passo
+                        histórico</h2>
+                    <p id="legendaNoticiaDestaque">Um pequeno passo para um homem, um grande salto para a Humanidade e
+                        uma imensa lavada de alma para milhões de americanos. A pegada impressa por Neil Armstrong na
+                        poeira do Mar da Tranquilidade, em 20 de julho de 1969, representou a maior conquista da raça
+                        humana e a vitória dos Estados Unidos sobre a União Soviética na corrida espacial.</p>
                 </div>
             </div>
         </section>
@@ -35,12 +42,14 @@
             </div>
             <div class="mural">
                 <div class="Left">
-                    <img src="https://acervo.oglobo.globo.com/incoming/23143323-b4a-25b/materia/Fernando-Sabino.jpg" alt="imagem" class="imageLeft">
+                    <img src="https://acervo.oglobo.globo.com/incoming/23143323-b4a-25b/materia/Fernando-Sabino.jpg"
+                        alt="imagem" class="imageLeft">
                     <a href="#">Fernando Sabino, um dos 'quatro mineiros do apocalipse', completaria 90 anos</a>
                 </div>
-                
+
                 <div class="Right">
-                    <img src="https://acervo.oglobo.globo.com/incoming/23148785-2eb-818/materia/40433638_11101998Brazil27s-Rodrigo-Pessoa-holds-the-cup-he-received-for-winning-the-final-of-the-i.jpg" alt="imagem" class="imageRight">
+                    <img src="https://acervo.oglobo.globo.com/incoming/23148785-2eb-818/materia/40433638_11101998Brazil27s-Rodrigo-Pessoa-holds-the-cup-he-received-for-winning-the-final-of-the-i.jpg"
+                        alt="imagem" class="imageRight">
                     <a href="#">Hipismo do Brasil brilha com Rodrigo Pessoa em Atlanta, Sydney e Atenas</a>
                 </div>
             </div>
@@ -57,53 +66,62 @@
                 <div class="artigos">
                     <h3>Ciência</h3>
                     <a href="#">Homem começa a se conhecer</a>
-                    <p>A ciência apresentou um dos maiores avanços: mapeou o DNA humano. Agora é esperar o uso na medicinas</p>
+                    <p>A ciência apresentou um dos maiores avanços: mapeou o DNA humano. Agora é esperar o uso na
+                        medicinas</p>
                 </div>
             </div>
             <div class="thirdSection">
                 <div class="artigos">
                     <h3>Esporte</h3>
                     <a href="#">Guga está no topo do mundo</a>
-                    <p>Brasileiro entra no seleto clube dos tenistas que acabam o ano como o nº 1. Feito alcançado antes apenas por americanos e europeus</p>
+                    <p>Brasileiro entra no seleto clube dos tenistas que acabam o ano como o nº 1. Feito alcançado antes
+                        apenas por americanos e europeus</p>
                 </div>
             </div>
             <div class="thirdSection">
                 <div class="artigos">
                     <h3>Notícias</h3>
                     <a href="#">País assiste sequestro na televisão</a>
-                    <p>Era dia dos namorados, mas as atenções ficaram nas TVs, que exibiam um sequestrador torturar passageiros de um ônibus no Rio</p>
+                    <p>Era dia dos namorados, mas as atenções ficaram nas TVs, que exibiam um sequestrador torturar
+                        passageiros de um ônibus no Rio</p>
                 </div>
             </div>
             <div class="thirdSection">
                 <div class="artigos">
                     <h3>Economia</h3>
                     <a href="#">Banespa é vendido</a>
-                    <p>Foram quase três anos de adiamentos. Mas, em novembro, o Santander arrematou o Banespa por mais de R$ 7 bi</p>
+                    <p>Foram quase três anos de adiamentos. Mas, em novembro, o Santander arrematou o Banespa por mais
+                        de R$ 7 bi</p>
                 </div>
             </div>
             <div class="thirdSection">
                 <div class="artigos">
                     <h3>Crime</h3>
                     <a href="#">Lalau se entrega antes do Natal</a>
-                    <p>O ex-juiz fugiu o quanto quis (227 dias), depois se entregou à Polícia Federal e passou o Natal na carceragem</p>
+                    <p>O ex-juiz fugiu o quanto quis (227 dias), depois se entregou à Polícia Federal e passou o Natal
+                        na carceragem</p>
                 </div>
             </div>
             <div class="thirdSection">
                 <div class="artigos">
                     <h3>Tragédia</h3>
                     <a href="#">Submarino afunda e mata 118 na Rússia</a>
-                    <p>Foram dias de suspense. Haveria algum sobrevivente entre os tripulantes que afundaram junto com o Kursk? Não.</p>
+                    <p>Foram dias de suspense. Haveria algum sobrevivente entre os tripulantes que afundaram junto com o
+                        Kursk? Não.</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer">
-            <p>Site criado pelo <a href="#">Kaik Lima</a> para fins acadêmicos</p>
+        <div class="fim">
+            <p>Site criado pelo <a href="https://github.com/Kaik-Lima" target="_blank">Kaik Lima</a> para fins
+                acadêmicos</p>
             <div class="botao" onclick="mudapage()">
                 <img src="extra/buttom.png" alt="botao" class="botao-image">
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
