@@ -45,5 +45,5 @@ function mudapage() {
     // document.querySelector("main").setAttribute("align-items","start")
     // document.getElementsByClassName("firstSection").setAttribute("justify-content","start")
     // document.getElementsByClassName("firstSection").setAttribute("justify-content","start")
-    document.getElementById("firstSection").style.display = "initial"
+    document.getElementById("firstSection").style.display = "initial";
 }
